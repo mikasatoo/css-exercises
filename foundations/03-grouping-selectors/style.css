@@ -1,0 +1,17 @@
+/* Both elements */
+.black,
+.yellow {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* First element */
+.black {
+    background-color: #000000;
+    color: white;
+}
+
+/* Second element */
+.yellow {
+    background-color: yellow;
+}
