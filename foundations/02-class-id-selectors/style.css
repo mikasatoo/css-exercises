@@ -1,0 +1,23 @@
+/* odd-number class */
+.odd-number {
+    background-color: #d87093;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* second element */
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+/* third element */
+.cooler {
+    font-size: 24px;
+}
+
+/* fourth element */
+#fourth {
+    background-color: rgb(173, 255, 47);
+    font-size: 24px;
+    font-weight: bold;
+}
