@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* make the whole body a flex container (column) */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -24,4 +29,52 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* make the header a flex container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+/* separate left-links and right-links as different flex containers 
+  and add space between*/
+.left-links,
+.right-links {
+  display: flex;
+  margin-left: 10px;
+}
+
+/* make the footer a flex container */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  background-color: #eeeeee;
+}
+
+/* make the content a flex container (column) */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* remove bullets from li */
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+/* remove padding from ul */
+ul {
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+/* remove underline and change colour of links in header and footer*/
+a {
+  text-decoration: none;
+  color:grey;
 }
